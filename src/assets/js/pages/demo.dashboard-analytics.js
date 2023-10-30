@@ -242,9 +242,9 @@
                 radar: {
                     size: 130,
                     polygons: {
-                        strokeColor: '#e9e9e9',
+                        strokeColor: '#3056c9',
                         fill: {
-                            colors: ['#f8f8f8', '#fff']
+                            colors: ['#3056c9', '#fff']
                         }
                     }
                 }
@@ -344,7 +344,7 @@
                         },
                         total: {
                             show: true,
-                            label: 'OS',
+                            label: 'Product',
                             formatter: function (w) {
                                 // By default this function returns the average of all series. The below is just an example to show the use of custom formatter function
                                 return 8541
@@ -355,7 +355,7 @@
             },
             colors: colors,
             series: [44, 55, 67, 83],
-            labels: ['Windows', 'Macintosh', 'Linux', 'Android']
+            labels: ['KitKat', 'Hershey', 'CnC', 'Milk']
         }
 
         var chart = new ApexCharts(
@@ -393,6 +393,8 @@
                                 "US": "#e7e9fd",
                                 "CN": "#8890f7",
                                 "IN": "#727cf5",
+                                "DE": "#b3c3ff",
+                                "TR": "#1b4cfe",
                             }, attribute: 'fill'
                         }]
                     },
