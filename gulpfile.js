@@ -248,6 +248,7 @@ exports.build = series(
     clean,
     html,
     vendor,
+    javascript,
     parallel(data, fonts, images, javascript, scss, icons)
 );
 

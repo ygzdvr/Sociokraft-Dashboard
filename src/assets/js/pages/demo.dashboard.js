@@ -160,7 +160,7 @@
             tooltip: {
                 y: {
                     formatter: function (val) {
-                        return "$" + val + "k"
+                        return  val + "k"
                     }
                 },
             },
@@ -190,8 +190,8 @@
             stroke: {
                 width: 0
             },
-            series: [44, 55, 41, 17],
-            labels: ["Direct", "Affilliate", "Sponsored", "E-mail"],
+            series: [44325, 55862, 30561],
+            labels: ["TikTok", "Instagram", "Twitter"],
             colors: colors,
             responsive: [{
                 breakpoint: 480,

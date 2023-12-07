@@ -235,9 +235,9 @@
             },
             series: [{
                 name: 'Usage',
-                data: [80, 50, 30, 40, 60, 20],
+                data: [60, 50, 70, 40, 60, 20],
             }],
-            labels: ['Chrome', 'Firefox', 'Safari', 'Opera', 'Edge', 'Explorer'],
+            labels: ['< 18 years', '18-24 years', '25-34 years', '35-44 years', '45-54 years', '55+ years'],
             plotOptions: {
                 radar: {
                     size: 130,
@@ -344,7 +344,7 @@
                         },
                         total: {
                             show: true,
-                            label: 'Product',
+                            label: 'Analytics',
                             formatter: function (w) {
                                 // By default this function returns the average of all series. The below is just an example to show the use of custom formatter function
                                 return 8541
